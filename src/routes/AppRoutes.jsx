@@ -7,7 +7,6 @@ import Doctors from "../pages/Doctors/Doctors";
 import Patients from "../pages/Patients/Patients";
 import Appointments from "../pages/Appointments/Appointments";
 import Billing from "../pages/Billing/Billing";
-import Reports from "../pages/Reports/Reports";
 import Settings from "../pages/Settings/Settings";
 import DashboardLayout from "../layouts/DashboardLayout"
 import Departments from "../pages/Departments/Departments"
@@ -24,7 +23,7 @@ function AppRoutes() {
         <Route path="/patients" element={<Patients />} />
         <Route path="/appointments" element={<Appointments />} />
         <Route path="/billing" element={<Billing />} />
-        <Route path="/reports" element={<Reports />} />
+>
         <Route path="/settings" element={<Settings />} />
         <Route path="/profile" element={<Profile/>}/>
       </Route>
