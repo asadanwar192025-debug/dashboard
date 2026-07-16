@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-
 import Login from "../pages/auth/Login";
 import Register from "../pages/auth/Register";
 import Dashboard from "../pages/Dashboard/Dashboard";
@@ -23,7 +22,7 @@ function AppRoutes() {
         <Route path="/patients" element={<Patients />} />
         <Route path="/appointments" element={<Appointments />} />
         <Route path="/billing" element={<Billing />} />
->
+
         <Route path="/settings" element={<Settings />} />
         <Route path="/profile" element={<Profile/>}/>
       </Route>
