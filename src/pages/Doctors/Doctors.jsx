@@ -255,7 +255,7 @@ const Doctors = () => {
             <span className="font-semibold text-slate-800 dark:text-white">{doctorsData.length}</span> results
           </p>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <button className="w-9 h-9 flex items-center justify-center rounded-lg border border-slate-300 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-700 transition">
               <ChevronLeft className="dark:text-white" size={18} />
             </button>

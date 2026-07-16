@@ -36,15 +36,15 @@ const Appointments = () => {
               : ""
           } hover:bg-slate-50 dark:hover:bg-slate-700 transition`}
         >
-            <td className="px-4 py-4 text-center dark:text-white sticky left-0 z-20 bg-white dark:bg-slate-800 shadow-[2px_0_6px_rgba(0,0,0,0.08)]">{item.patient}</td>
-        
-            <td className="px-4 py-4 text-center dark:text-white ">{item.doctor}</td>
-             <td className="px-4 py-4 text-center dark:text-white ">{item.department}</td>
-              <td className="px-4 py-4 text-center dark:text-white ">{item.date}</td>
-               <td className="px-4 py-4 text-center dark:text-white ">{item.time}</td>
+            <td className="px-4 py-4 text-center dark:text-white whitespace-nowrap sticky left-0 z-20 bg-white dark:bg-slate-800 shadow-[2px_0_6px_rgba(0,0,0,0.08)]">{item.patient}</td>
+         
+            <td className="px-4 py-4 text-center dark:text-white whitespace-nowrap  ">{item.doctor}</td>
+             <td className="px-4 py-4 text-center dark:text-white whitespace-nowrap">{item.department}</td>
+              <td className="px-4 py-4 text-center dark:text-white whitespace-nowrap">{item.date}</td>
+               <td className="px-4 py-4 text-center dark:text-white whitespace-nowrap ">{item.time}</td>
             <td className="px-4 py-4 text-center  dark:text-white">
               <span
-                className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${getStatusClass(
+                className={`inline-flex items-center px-3 py-1 rounded-full whitespace-nowrap text-xs font-medium ${getStatusClass(
                   item.status
                 )}`}
               >

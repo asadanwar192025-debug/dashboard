@@ -20,7 +20,7 @@ const RecentPatients = ({ data }) => {
    <table className=" w-full ">
   <thead>
     <tr>
-      <th className="sticky left-0 z-20 bg-white dark:bg-slate-800 whitespace-nowrap   z-50 eft-0 px-4 py-3 text-center dark:text-white shadow-[4px_0_8px_rgba(0,0,0,0.01)]">Name</th>
+      <th className="sticky left-0 z-20 bg-white dark:bg-slate-800  bg-white  whitespace-nowrap   z-50 eft-0 px-4 py-3 text-center dark:text-white shadow-[4px_0_8px_rgba(0,0,0,0.01)]">Name</th>
       <th className="px-4 py-3 whitespace-nowrap  text-center dark:text-white">Age</th>
       <th className="px-4 py-3 whitespace-nowrap  text-center dark:text-white">  Gender</th>
        <th className="px-4 py-3 whitespace-nowrap  text-center dark:text-white">  Disease</th>
@@ -40,7 +40,7 @@ const RecentPatients = ({ data }) => {
           : ""
       } hover:bg-slate-50 dark:hover:bg-slate-700 transition`}
     >
-      <td className="sticky left-0 z-20  dark:bg-slate-800 px-4 py-4 whitespace-nowrap  text-center dark:text-white shadow-[2px_0_6px_rgba(0,0,0,0.08)] ">{item.name}</td>
+      <td className="sticky left-0 z-20  dark:bg-slate-800 bg-white px-4 py-4 whitespace-nowrap  text-center dark:text-white shadow-[2px_0_6px_rgba(0,0,0,0.08)] ">{item.name}</td>
 <td className="px-4 py-4 whitespace-nowrap  text-center dark:text-white ">{item.age}</td>
 <td className="px-4 py-4 whitespace-nowrap  text-center dark:text-white ">{item.gender}</td>
 <td className="px-4 py-4 whitespace-nowrap text-center dark:text-white ">{item.disease}</td>
