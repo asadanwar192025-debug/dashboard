@@ -34,14 +34,7 @@ const Navbar = ({ isSidebarOpen, setIsSidebarOpen }) => {
           <Menu className="dark:text-gray-300" size={24} />
         </button>
 
-        <div className="hidden md:flex items-center gap-2 bg-gray-100 dark:bg-slate-800 rounded-lg px-3 py-2">
-          <Search size={18} className="text-gray-500 dark:text-gray-300" />
-          <input
-            type="text"
-            placeholder="Search..."
-            className="bg-transparent outline-none text-sm w-72 dark:text-white placeholder:text-gray-400"
-          />
-        </div>
+       
       </div>
 
       {/* Right Side */}

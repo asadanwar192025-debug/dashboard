@@ -158,7 +158,7 @@ const Settings = () => {
 
             <div className="space-y-4">
               {/* Appointment Reminders */}
-              <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border rounded-xl p-4 dark:border-slate-700">
+              <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border rounded-xl p-4 dark:border-slate-700  ">
                 <div className="flex gap-4 items-start">
                   <CalendarDays className="mt-1 dark:text-white" size={24} />
                   <div>
@@ -166,7 +166,7 @@ const Settings = () => {
                     <p className="text-sm text-slate-500">Receives reminders for upcoming appointments</p>
                   </div>
                 </div>
-                <select className="w-full lg:w-52 border rounded-lg px-4 py-3 dark:bg-slate-900 dark:border-slate-600">
+                <select className="w-full lg:w-52 border rounded-lg px-4 py-3 dark:bg-slate-900 dark:border-slate-600  dark:text-white" >
                   <option>24 hours before</option>
                   <option>48 hours before</option>
                   <option>1 hour before</option>
@@ -174,7 +174,7 @@ const Settings = () => {
               </div>
 
               {/* Billing Alerts */}
-              <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border rounded-xl p-4 dark:border-slate-700">
+              <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border rounded-xl p-4 dark:border-slate-700  dark:text-white">
                 <div className="flex gap-4 items-start">
                   <BadgeDollarSign className="mt-1 dark:text-white" size={24} />
                   <div>
@@ -182,7 +182,7 @@ const Settings = () => {
                     <p className="text-sm text-slate-500">Receive alerts for invoices and payments</p>
                   </div>
                 </div>
-                <select className="w-full lg:w-52 border rounded-lg px-4 py-3 dark:bg-slate-900 dark:border-slate-600">
+                <select className="w-full lg:w-52 border rounded-lg px-4 py-3 dark:bg-slate-900 dark:border-slate-600  dark:text-white">
                   <option>Immediately</option>
                   <option>Daily Summary</option>
                 </select>
@@ -197,7 +197,7 @@ const Settings = () => {
                     <p className="text-sm text-slate-500">Receive notifications about system updates</p>
                   </div>
                 </div>
-                <select className="w-full lg:w-52 border rounded-lg px-4 py-3 dark:bg-slate-900 dark:border-slate-600">
+                <select className="w-full lg:w-52 border rounded-lg px-4 py-3 dark:bg-slate-900 dark:border-slate-600  dark:text-white">
                   <option>Daily Summary</option>
                   <option>Weekly</option>
                 </select>
@@ -278,7 +278,7 @@ const Settings = () => {
               <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition">
                 <Save size={18} />
                 Save Changes
-              </button>
+              </button>0
             </div>
           </div>
         </div>
